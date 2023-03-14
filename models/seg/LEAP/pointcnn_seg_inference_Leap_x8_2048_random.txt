@@ -1,0 +1,564 @@
+2022-04-25 15:02:49.049336: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\platform\cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+2022-04-25 15:02:49.256493: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\gpu\gpu_device.cc:1212] Found device 0 with properties: 
+name: Quadro P3200 major: 6 minor: 1 memoryClockRate(GHz): 1.48
+pciBusID: 0000:01:00.0
+totalMemory: 6.00GiB freeMemory: 5.08GiB
+2022-04-25 15:02:49.256550: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2022-04-25 15:02:49.837568: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 4859 MB memory) -> physical GPU (device: 0, name: Quadro P3200, pci bus id: 0000:01:00.0, compute capability: 6.1)
+C:\Users\aboughra\Anaconda3\envs\Point cnn\lib\site-packages\tensorflow\python\framework\dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+C:\Users\aboughra\Anaconda3\envs\Point cnn\lib\site-packages\tensorflow\python\framework\dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+C:\Users\aboughra\Anaconda3\envs\Point cnn\lib\site-packages\tensorflow\python\framework\dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+C:\Users\aboughra\Anaconda3\envs\Point cnn\lib\site-packages\tensorflow\python\framework\dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+C:\Users\aboughra\Anaconda3\envs\Point cnn\lib\site-packages\tensorflow\python\framework\dtypes.py:521: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+C:\Users\aboughra\Anaconda3\envs\Point cnn\lib\site-packages\tensorflow\python\framework\dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\PointCNN\data_utils.py:162: H5pyDeprecationWarning: The default file mode will change to 'r' (read-only) in h5py 3.0. To suppress this warning, pass the mode you need to h5py.File(), or set the global default h5.get_config().default_file_mode, or set the environment variable H5PY_DEFAULT_READONLY=1. Available modes are: 'r', 'r+', 'w', 'w-'/'x', 'a'. See the docs for details.
+  data = h5py.File(os.path.join(folder, line.strip()))
+WARNING:tensorflow:From C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\PointCNN\pointfly.py:129: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2022-04-25 15:02:53.725265: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\gpu\gpu_device.cc:1312] Adding visible gpu devices: 0
+2022-04-25 15:02:53.725403: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\gpu\gpu_device.cc:993] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 4857 MB memory) -> physical GPU (device: 0, name: Quadro P3200, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Namespace(category='../../data/LEAP_seg/categories.txt', data_folder='../../data/LEAP_seg/Test/Files_data', filelist='../../data/LEAP_seg/Test.txt', load_ckpt='C:/Users/aboughra/Documents/3A_these/Segmentation/PointCNN_seg/models/seg/LEAP/pointcnn_seg_Leap_x8_2048_random_2022-03-28-16-12-37_14636/ckpts/iter-21500', model='pointcnn_seg', repeat_num=1, sample_num=2048, save_ply=False, setting='Leap_x8_2048_random')
+2022-04-25 15:02:49.841144-Preparing datasets...
+2022-04-25 15:02:49.850152-28 testing batches.
+2022-04-25 15:02:53.724303-Parameter number: 8314434.
+2022-04-25 15:02:54.101354-Checkpoint loaded from C:/Users/aboughra/Documents/3A_these/Segmentation/PointCNN_seg/models/seg/LEAP/pointcnn_seg_Leap_x8_2048_random_2022-03-28-16-12-37_14636/ckpts/iter-21500!
+type :  <class 'numpy.ndarray'>
+category_list :  [('Classe60', 2)]
+len :  1
+object label :  60
+probs :  [array([[[1.0000000e+00, 8.0693463e-10],
+        [9.9994886e-01, 5.1133204e-05],
+        [1.0000000e+00, 3.0120884e-09],
+        ...,
+        [9.9999630e-01, 3.7175948e-06],
+        [9.9981707e-01, 1.8294570e-04],
+        [9.9996817e-01, 3.1847772e-05]]], dtype=float32)]
+probs_2d :  [[1.0000000e+00 8.0693463e-10]
+ [9.9994886e-01 5.1133204e-05]
+ [1.0000000e+00 3.0120884e-09]
+ ...
+ [9.9999630e-01 3.7175948e-06]
+ [9.9981707e-01 1.8294570e-04]
+ [9.9996817e-01 3.1847772e-05]]
+2022-04-25 15:02:56.013526-[Testing]-Iter: 000000 saved to ../../data/LEAP_seg/Test/Files_data_pred_leap_1\classe60_abs\PointCloud_pos0.seg
+type :  <class 'numpy.ndarray'>
+category_list :  [('Classe60', 2)]
+len :  1
+object label :  60
+probs :  [array([[[9.9999797e-01, 2.0495447e-06],
+        [9.9999905e-01, 9.2142579e-07],
+        [9.9986935e-01, 1.3065613e-04],
+        ...,
+        [1.0000000e+00, 3.9797880e-13],
+        [9.9999750e-01, 2.4850406e-06],
+        [9.9998212e-01, 1.7905690e-05]]], dtype=float32)]
+probs_2d :  [[9.9999797e-01 2.0495447e-06]
+ [9.9999905e-01 9.2142579e-07]
+ [9.9986935e-01 1.3065613e-04]
+ ...
+ [1.0000000e+00 3.9797880e-13]
+ [9.9999750e-01 2.4850406e-06]
+ [9.9998212e-01 1.7905690e-05]]
+2022-04-25 15:02:56.111729-[Testing]-Iter: 000001 saved to ../../data/LEAP_seg/Test/Files_data_pred_leap_1\classe60_abs\PointCloud_pos1.seg
+type :  <class 'numpy.ndarray'>
+category_list :  [('Classe60', 2)]
+len :  1
+object label :  60
+probs :  [array([[[9.5534235e-01, 4.4657629e-02],
+        [9.9684048e-01, 3.1594876e-03],
+        [9.9999988e-01, 8.1552592e-08],
+        ...,
+        [1.0000000e+00, 1.9073330e-08],
+        [9.9990749e-01, 9.2526781e-05],
+        [9.9993694e-01, 6.3066364e-05]]], dtype=float32)]
+probs_2d :  [[9.5534235e-01 4.4657629e-02]
+ [9.9684048e-01 3.1594876e-03]
+ [9.9999988e-01 8.1552592e-08]
+ ...
+ [1.0000000e+00 1.9073330e-08]
+ [9.9990749e-01 9.2526781e-05]
+ [9.9993694e-01 6.3066364e-05]]
+2022-04-25 15:02:56.217550-[Testing]-Iter: 000002 saved to ../../data/LEAP_seg/Test/Files_data_pred_leap_1\classe60_abs\PointCloud_pos10.seg
+type :  <class 'numpy.ndarray'>
+category_list :  [('Classe60', 2)]
+len :  1
+object label :  60
+probs :  [array([[[9.9999988e-01, 6.6336952e-08],
+        [9.9999988e-01, 1.1134040e-07],
+        [9.9999738e-01, 2.5964064e-06],
+        ...,
+        [9.9999833e-01, 1.7249557e-06],
+        [9.9999833e-01, 1.6150291e-06],
+        [1.0000000e+00, 3.9211147e-13]]], dtype=float32)]
+probs_2d :  [[9.9999988e-01 6.6336952e-08]
+ [9.9999988e-01 1.1134040e-07]
+ [9.9999738e-01 2.5964064e-06]
+ ...
+ [9.9999833e-01 1.7249557e-06]
+ [9.9999833e-01 1.6150291e-06]
+ [1.0000000e+00 3.9211147e-13]]
+2022-04-25 15:02:56.326366-[Testing]-Iter: 000003 saved to ../../data/LEAP_seg/Test/Files_data_pred_leap_1\classe60_abs\PointCloud_pos11.seg
+type :  <class 'numpy.ndarray'>
+category_list :  [('Classe60', 2)]
+len :  1
+object label :  60
+probs :  [array([[[6.5803736e-01, 3.4196261e-01],
+        [9.9996519e-01, 3.4826186e-05],
+        [9.9999821e-01, 1.7761321e-06],
+        ...,
+        [8.4026372e-01, 1.5973625e-01],
+        [9.9998748e-01, 1.2569755e-05],
+        [9.9997711e-01, 2.2902179e-05]]], dtype=float32)]
+probs_2d :  [[6.5803736e-01 3.4196261e-01]
+ [9.9996519e-01 3.4826186e-05]
+ [9.9999821e-01 1.7761321e-06]
+ ...
+ [8.4026372e-01 1.5973625e-01]
+ [9.9998748e-01 1.2569755e-05]
+ [9.9997711e-01 2.2902179e-05]]
+2022-04-25 15:02:56.436475-[Testing]-Iter: 000004 saved to ../../data/LEAP_seg/Test/Files_data_pred_leap_1\classe60_abs\PointCloud_pos12.seg
+type :  <class 'numpy.ndarray'>
+category_list :  [('Classe60', 2)]
+len :  1
+object label :  60
+probs :  [array([[[1.0000000e+00, 1.4335007e-10],
+        [9.9622369e-01, 3.7763156e-03],
+        [9.9999595e-01, 4.0873178e-06],
+        ...,
+        [9.9999845e-01, 1.5115343e-06],
+        [1.0000000e+00, 1.9148345e-08],
+        [9.9999654e-01, 3.4434315e-06]]], dtype=float32)]
+probs_2d :  [[1.0000000e+00 1.4335007e-10]
+ [9.9622369e-01 3.7763156e-03]
+ [9.9999595e-01 4.0873178e-06]
+ ...
+ [9.9999845e-01 1.5115343e-06]
+ [1.0000000e+00 1.9148345e-08]
+ [9.9999654e-01 3.4434315e-06]]
+2022-04-25 15:02:56.541740-[Testing]-Iter: 000005 saved to ../../data/LEAP_seg/Test/Files_data_pred_leap_1\classe60_abs\PointCloud_pos15.seg
+type :  <class 'numpy.ndarray'>
+category_list :  [('Classe60', 2)]
+len :  1
+object label :  60
+probs :  [array([[[9.9999774e-01, 2.2097333e-06],
+        [9.9999309e-01, 6.9605835e-06],
+        [7.2638994e-01, 2.7361009e-01],
+        ...,
+        [9.9999988e-01, 1.1628316e-07],
+        [9.9999714e-01, 2.8630768e-06],
+        [9.9999630e-01, 3.6431252e-06]]], dtype=float32)]
+probs_2d :  [[9.9999774e-01 2.2097333e-06]
+ [9.9999309e-01 6.9605835e-06]
+ [7.2638994e-01 2.7361009e-01]
+ ...
+ [9.9999988e-01 1.1628316e-07]
+ [9.9999714e-01 2.8630768e-06]
+ [9.9999630e-01 3.6431252e-06]]
+2022-04-25 15:02:56.633189-[Testing]-Iter: 000006 saved to ../../data/LEAP_seg/Test/Files_data_pred_leap_1\classe60_abs\PointCloud_pos16.seg
+type :  <class 'numpy.ndarray'>
+category_list :  [('Classe60', 2)]
+len :  1
+object label :  60
+probs :  [array([[[9.9999905e-01, 9.1086105e-07],
+        [9.9503350e-01, 4.9665109e-03],
+        [1.2023915e-01, 8.7976086e-01],
+        ...,
+        [1.0000000e+00, 1.1719484e-13],
+        [1.0000000e+00, 8.3342053e-09],
+        [9.9235123e-01, 7.6487944e-03]]], dtype=float32)]
+probs_2d :  [[9.9999905e-01 9.1086105e-07]
+ [9.9503350e-01 4.9665109e-03]
+ [1.2023915e-01 8.7976086e-01]
+ ...
+ [1.0000000e+00 1.1719484e-13]
+ [1.0000000e+00 8.3342053e-09]
+ [9.9235123e-01 7.6487944e-03]]
+2022-04-25 15:02:56.726323-[Testing]-Iter: 000007 saved to ../../data/LEAP_seg/Test/Files_data_pred_leap_1\classe60_abs\PointCloud_pos19.seg
+type :  <class 'numpy.ndarray'>
+category_list :  [('Classe60', 2)]
+len :  1
+object label :  60
+probs :  [array([[[3.7326854e-02, 9.6267319e-01],
+        [9.9991822e-01, 8.1733066e-05],
+        [9.9999988e-01, 1.0057750e-07],
+        ...,
+        [1.0000000e+00, 4.8359990e-08],
+        [1.0000000e+00, 4.7954920e-08],
+        [1.0000000e+00, 2.5125837e-09]]], dtype=float32)]
+probs_2d :  [[3.7326854e-02 9.6267319e-01]
+ [9.9991822e-01 8.1733066e-05]
+ [9.9999988e-01 1.0057750e-07]
+ ...
+ [1.0000000e+00 4.8359990e-08]
+ [1.0000000e+00 4.7954920e-08]
+ [1.0000000e+00 2.5125837e-09]]
+2022-04-25 15:02:56.813722-[Testing]-Iter: 000008 saved to ../../data/LEAP_seg/Test/Files_data_pred_leap_1\classe60_abs\PointCloud_pos2.seg
+type :  <class 'numpy.ndarray'>
+category_list :  [('Classe60', 2)]
+len :  1
+object label :  60
+probs :  [array([[[9.7352183e-01, 2.6478205e-02],
+        [9.7749341e-01, 2.2506610e-02],
+        [9.9999976e-01, 2.2638980e-07],
+        ...,
+        [9.9999940e-01, 6.0776063e-07],
+        [9.9956578e-01, 4.3417784e-04],
+        [1.0000000e+00, 1.5908408e-10]]], dtype=float32)]
+probs_2d :  [[9.7352183e-01 2.6478205e-02]
+ [9.7749341e-01 2.2506610e-02]
+ [9.9999976e-01 2.2638980e-07]
+ ...
+ [9.9999940e-01 6.0776063e-07]
+ [9.9956578e-01 4.3417784e-04]
+ [1.0000000e+00 1.5908408e-10]]
+2022-04-25 15:02:56.915774-[Testing]-Iter: 000009 saved to ../../data/LEAP_seg/Test/Files_data_pred_leap_1\classe60_abs\PointCloud_pos20.seg
+type :  <class 'numpy.ndarray'>
+category_list :  [('Classe60', 2)]
+len :  1
+object label :  60
+probs :  [array([[[9.9999976e-01, 2.1796521e-07],
+        [1.0000000e+00, 3.6173976e-08],
+        [9.9987757e-01, 1.2236497e-04],
+        ...,
+        [9.9986696e-01, 1.3301923e-04],
+        [9.9997008e-01, 2.9899787e-05],
+        [9.9574405e-01, 4.2559383e-03]]], dtype=float32)]
+probs_2d :  [[9.9999976e-01 2.1796521e-07]
+ [1.0000000e+00 3.6173976e-08]
+ [9.9987757e-01 1.2236497e-04]
+ ...
+ [9.9986696e-01 1.3301923e-04]
+ [9.9997008e-01 2.9899787e-05]
+ [9.9574405e-01 4.2559383e-03]]
+2022-04-25 15:02:57.022450-[Testing]-Iter: 000010 saved to ../../data/LEAP_seg/Test/Files_data_pred_leap_1\classe60_abs\PointCloud_pos23.seg
+type :  <class 'numpy.ndarray'>
+category_list :  [('Classe60', 2)]
+len :  1
+object label :  60
+probs :  [array([[[9.9999785e-01, 2.2026600e-06],
+        [9.9952662e-01, 4.7341187e-04],
+        [9.9999917e-01, 8.8326891e-07],
+        ...,
+        [9.9975652e-01, 2.4350110e-04],
+        [9.9999905e-01, 9.3885848e-07],
+        [9.9998784e-01, 1.2108803e-05]]], dtype=float32)]
+probs_2d :  [[9.9999785e-01 2.2026600e-06]
+ [9.9952662e-01 4.7341187e-04]
+ [9.9999917e-01 8.8326891e-07]
+ ...
+ [9.9975652e-01 2.4350110e-04]
+ [9.9999905e-01 9.3885848e-07]
+ [9.9998784e-01 1.2108803e-05]]
+2022-04-25 15:02:57.114563-[Testing]-Iter: 000011 saved to ../../data/LEAP_seg/Test/Files_data_pred_leap_1\classe60_abs\PointCloud_pos24.seg
+type :  <class 'numpy.ndarray'>
+category_list :  [('Classe60', 2)]
+len :  1
+object label :  60
+probs :  [array([[[0.03703647, 0.96296346],
+        [0.03962651, 0.9603735 ],
+        [0.05282623, 0.9471737 ],
+        ...,
+        [0.0049068 , 0.9950932 ],
+        [0.02510931, 0.9748907 ],
+        [0.99886537, 0.0011346 ]]], dtype=float32)]
+probs_2d :  [[0.03703647 0.96296346]
+ [0.03962651 0.9603735 ]
+ [0.05282623 0.9471737 ]
+ ...
+ [0.0049068  0.9950932 ]
+ [0.02510931 0.9748907 ]
+ [0.99886537 0.0011346 ]]
+2022-04-25 15:02:57.279788-[Testing]-Iter: 000012 saved to ../../data/LEAP_seg/Test/Files_data_pred_leap_1\classe60_abs\PointCloud_pos25.seg
+type :  <class 'numpy.ndarray'>
+category_list :  [('Classe60', 2)]
+len :  1
+object label :  60
+probs :  [array([[[9.9998116e-01, 1.8881126e-05],
+        [9.9999309e-01, 6.9335133e-06],
+        [9.9256551e-01, 7.4344431e-03],
+        ...,
+        [9.8411673e-01, 1.5883239e-02],
+        [9.9999559e-01, 4.3806617e-06],
+        [9.9999845e-01, 1.5074229e-06]]], dtype=float32)]
+probs_2d :  [[9.9998116e-01 1.8881126e-05]
+ [9.9999309e-01 6.9335133e-06]
+ [9.9256551e-01 7.4344431e-03]
+ ...
+ [9.8411673e-01 1.5883239e-02]
+ [9.9999559e-01 4.3806617e-06]
+ [9.9999845e-01 1.5074229e-06]]
+2022-04-25 15:02:57.376529-[Testing]-Iter: 000013 saved to ../../data/LEAP_seg/Test/Files_data_pred_leap_1\classe60_abs\PointCloud_pos27.seg
+type :  <class 'numpy.ndarray'>
+category_list :  [('Classe60', 2)]
+len :  1
+object label :  60
+probs :  [array([[[9.9999905e-01, 9.4215562e-07],
+        [9.9999988e-01, 6.8823255e-08],
+        [9.9999988e-01, 1.4893224e-07],
+        ...,
+        [1.0000000e+00, 4.5955876e-08],
+        [9.9999845e-01, 1.5012096e-06],
+        [9.9998665e-01, 1.3292614e-05]]], dtype=float32)]
+probs_2d :  [[9.9999905e-01 9.4215562e-07]
+ [9.9999988e-01 6.8823255e-08]
+ [9.9999988e-01 1.4893224e-07]
+ ...
+ [1.0000000e+00 4.5955876e-08]
+ [9.9999845e-01 1.5012096e-06]
+ [9.9998665e-01 1.3292614e-05]]
+2022-04-25 15:02:57.477178-[Testing]-Iter: 000014 saved to ../../data/LEAP_seg/Test/Files_data_pred_leap_1\classe60_abs\PointCloud_pos28.seg
+type :  <class 'numpy.ndarray'>
+category_list :  [('Classe60', 2)]
+len :  1
+object label :  60
+probs :  [array([[[1.0000000e+00, 7.2831674e-10],
+        [9.9927694e-01, 7.2304998e-04],
+        [1.4734438e-01, 8.5265559e-01],
+        ...,
+        [9.7427803e-01, 2.5721945e-02],
+        [9.7384179e-01, 2.6158230e-02],
+        [9.9697208e-01, 3.0278952e-03]]], dtype=float32)]
+probs_2d :  [[1.0000000e+00 7.2831674e-10]
+ [9.9927694e-01 7.2304998e-04]
+ [1.4734438e-01 8.5265559e-01]
+ ...
+ [9.7427803e-01 2.5721945e-02]
+ [9.7384179e-01 2.6158230e-02]
+ [9.9697208e-01 3.0278952e-03]]
+2022-04-25 15:02:57.593564-[Testing]-Iter: 000015 saved to ../../data/LEAP_seg/Test/Files_data_pred_leap_1\classe60_abs\PointCloud_pos29.seg
+type :  <class 'numpy.ndarray'>
+category_list :  [('Classe60', 2)]
+len :  1
+object label :  60
+probs :  [array([[[9.9999917e-01, 8.7732769e-07],
+        [1.0000000e+00, 2.7903647e-12],
+        [9.9999976e-01, 2.6999564e-07],
+        ...,
+        [9.9961120e-01, 3.8879539e-04],
+        [9.9999428e-01, 5.7428365e-06],
+        [9.9999928e-01, 7.4162892e-07]]], dtype=float32)]
+probs_2d :  [[9.9999917e-01 8.7732769e-07]
+ [1.0000000e+00 2.7903647e-12]
+ [9.9999976e-01 2.6999564e-07]
+ ...
+ [9.9961120e-01 3.8879539e-04]
+ [9.9999428e-01 5.7428365e-06]
+ [9.9999928e-01 7.4162892e-07]]
+2022-04-25 15:02:57.694037-[Testing]-Iter: 000016 saved to ../../data/LEAP_seg/Test/Files_data_pred_leap_1\classe60_abs\PointCloud_pos3.seg
+type :  <class 'numpy.ndarray'>
+category_list :  [('Classe60', 2)]
+len :  1
+object label :  60
+probs :  [array([[[0.6585392 , 0.3414608 ],
+        [0.1133823 , 0.8866178 ],
+        [0.86218214, 0.13781789],
+        ...,
+        [0.9857555 , 0.01424452],
+        [0.7251471 , 0.27485284],
+        [0.97809505, 0.02190494]]], dtype=float32)]
+probs_2d :  [[0.6585392  0.3414608 ]
+ [0.1133823  0.8866178 ]
+ [0.86218214 0.13781789]
+ ...
+ [0.9857555  0.01424452]
+ [0.7251471  0.27485284]
+ [0.97809505 0.02190494]]
+2022-04-25 15:02:57.831254-[Testing]-Iter: 000017 saved to ../../data/LEAP_seg/Test/Files_data_pred_leap_1\classe60_abs\PointCloud_pos31.seg
+type :  <class 'numpy.ndarray'>
+category_list :  [('Classe60', 2)]
+len :  1
+object label :  60
+probs :  [array([[[1.0000000e+00, 4.3082524e-09],
+        [9.9998856e-01, 1.1464328e-05],
+        [2.2502027e-01, 7.7497971e-01],
+        ...,
+        [9.9991786e-01, 8.2087128e-05],
+        [1.5860902e-01, 8.4139097e-01],
+        [9.9993360e-01, 6.6372580e-05]]], dtype=float32)]
+probs_2d :  [[1.0000000e+00 4.3082524e-09]
+ [9.9998856e-01 1.1464328e-05]
+ [2.2502027e-01 7.7497971e-01]
+ ...
+ [9.9991786e-01 8.2087128e-05]
+ [1.5860902e-01 8.4139097e-01]
+ [9.9993360e-01 6.6372580e-05]]
+2022-04-25 15:02:57.937471-[Testing]-Iter: 000018 saved to ../../data/LEAP_seg/Test/Files_data_pred_leap_1\classe60_abs\PointCloud_pos32.seg
+type :  <class 'numpy.ndarray'>
+category_list :  [('Classe60', 2)]
+len :  1
+object label :  60
+probs :  [array([[[9.99941468e-01, 5.85249763e-05],
+        [8.96272421e-01, 1.03727564e-01],
+        [9.91995990e-01, 8.00400134e-03],
+        ...,
+        [9.74371850e-01, 2.56281402e-02],
+        [8.90166879e-01, 1.09833047e-01],
+        [1.00000000e+00, 3.50606011e-09]]], dtype=float32)]
+probs_2d :  [[9.99941468e-01 5.85249763e-05]
+ [8.96272421e-01 1.03727564e-01]
+ [9.91995990e-01 8.00400134e-03]
+ ...
+ [9.74371850e-01 2.56281402e-02]
+ [8.90166879e-01 1.09833047e-01]
+ [1.00000000e+00 3.50606011e-09]]
+2022-04-25 15:02:58.042542-[Testing]-Iter: 000019 saved to ../../data/LEAP_seg/Test/Files_data_pred_leap_1\classe60_abs\PointCloud_pos33.seg
+type :  <class 'numpy.ndarray'>
+category_list :  [('Classe60', 2)]
+len :  1
+object label :  60
+probs :  [array([[[9.9773741e-01, 2.2625613e-03],
+        [7.9185903e-01, 2.0814095e-01],
+        [9.9185610e-01, 8.1439251e-03],
+        ...,
+        [9.9990761e-01, 9.2403243e-05],
+        [9.9395329e-01, 6.0466821e-03],
+        [2.6242490e-04, 9.9973756e-01]]], dtype=float32)]
+probs_2d :  [[9.9773741e-01 2.2625613e-03]
+ [7.9185903e-01 2.0814095e-01]
+ [9.9185610e-01 8.1439251e-03]
+ ...
+ [9.9990761e-01 9.2403243e-05]
+ [9.9395329e-01 6.0466821e-03]
+ [2.6242490e-04 9.9973756e-01]]
+2022-04-25 15:02:58.194499-[Testing]-Iter: 000020 saved to ../../data/LEAP_seg/Test/Files_data_pred_leap_1\classe60_abs\PointCloud_pos35.seg
+type :  <class 'numpy.ndarray'>
+category_list :  [('Classe60', 2)]
+len :  1
+object label :  60
+probs :  [array([[[0.99577206, 0.00422797],
+        [0.9844827 , 0.01551723],
+        [0.99149054, 0.00850944],
+        ...,
+        [0.43357176, 0.5664282 ],
+        [0.99741805, 0.002582  ],
+        [0.97517484, 0.02482515]]], dtype=float32)]
+probs_2d :  [[0.99577206 0.00422797]
+ [0.9844827  0.01551723]
+ [0.99149054 0.00850944]
+ ...
+ [0.43357176 0.5664282 ]
+ [0.99741805 0.002582  ]
+ [0.97517484 0.02482515]]
+2022-04-25 15:02:58.289493-[Testing]-Iter: 000021 saved to ../../data/LEAP_seg/Test/Files_data_pred_leap_1\classe60_abs\PointCloud_pos36.seg
+type :  <class 'numpy.ndarray'>
+category_list :  [('Classe60', 2)]
+len :  1
+object label :  60
+probs :  [array([[[7.9771034e-02, 9.2022890e-01],
+        [9.9991632e-01, 8.3675302e-05],
+        [9.5888633e-01, 4.1113660e-02],
+        ...,
+        [4.9214458e-01, 5.0785547e-01],
+        [9.9881101e-01, 1.1889605e-03],
+        [9.9432725e-01, 5.6727990e-03]]], dtype=float32)]
+probs_2d :  [[7.9771034e-02 9.2022890e-01]
+ [9.9991632e-01 8.3675302e-05]
+ [9.5888633e-01 4.1113660e-02]
+ ...
+ [4.9214458e-01 5.0785547e-01]
+ [9.9881101e-01 1.1889605e-03]
+ [9.9432725e-01 5.6727990e-03]]
+2022-04-25 15:02:58.401430-[Testing]-Iter: 000022 saved to ../../data/LEAP_seg/Test/Files_data_pred_leap_1\classe60_abs\PointCloud_pos37.seg
+type :  <class 'numpy.ndarray'>
+category_list :  [('Classe60', 2)]
+len :  1
+object label :  60
+probs :  [array([[[9.9999881e-01, 1.1889704e-06],
+        [9.9462068e-01, 5.3793117e-03],
+        [9.6669322e-01, 3.3306781e-02],
+        ...,
+        [9.9850297e-01, 1.4971088e-03],
+        [9.9908209e-01, 9.1795571e-04],
+        [9.7061187e-01, 2.9388128e-02]]], dtype=float32)]
+probs_2d :  [[9.9999881e-01 1.1889704e-06]
+ [9.9462068e-01 5.3793117e-03]
+ [9.6669322e-01 3.3306781e-02]
+ ...
+ [9.9850297e-01 1.4971088e-03]
+ [9.9908209e-01 9.1795571e-04]
+ [9.7061187e-01 2.9388128e-02]]
+2022-04-25 15:02:58.509321-[Testing]-Iter: 000023 saved to ../../data/LEAP_seg/Test/Files_data_pred_leap_1\classe60_abs\PointCloud_pos4.seg
+type :  <class 'numpy.ndarray'>
+category_list :  [('Classe60', 2)]
+len :  1
+object label :  60
+probs :  [array([[[0.00368089, 0.99631906],
+        [0.03835835, 0.96164167],
+        [0.02175612, 0.97824395],
+        ...,
+        [0.00259792, 0.9974021 ],
+        [0.02302769, 0.97697234],
+        [0.36741215, 0.63258785]]], dtype=float32)]
+probs_2d :  [[0.00368089 0.99631906]
+ [0.03835835 0.96164167]
+ [0.02175612 0.97824395]
+ ...
+ [0.00259792 0.9974021 ]
+ [0.02302769 0.97697234]
+ [0.36741215 0.63258785]]
+2022-04-25 15:02:58.684409-[Testing]-Iter: 000024 saved to ../../data/LEAP_seg/Test/Files_data_pred_leap_1\classe60_abs\PointCloud_pos5.seg
+type :  <class 'numpy.ndarray'>
+category_list :  [('Classe60', 2)]
+len :  1
+object label :  60
+probs :  [array([[[9.9927145e-01, 7.2860293e-04],
+        [9.9672627e-01, 3.2737292e-03],
+        [1.0000000e+00, 3.9931400e-09],
+        ...,
+        [9.9999964e-01, 3.5020724e-07],
+        [9.9183875e-01, 8.1612300e-03],
+        [9.9925786e-01, 7.4212515e-04]]], dtype=float32)]
+probs_2d :  [[9.9927145e-01 7.2860293e-04]
+ [9.9672627e-01 3.2737292e-03]
+ [1.0000000e+00 3.9931400e-09]
+ ...
+ [9.9999964e-01 3.5020724e-07]
+ [9.9183875e-01 8.1612300e-03]
+ [9.9925786e-01 7.4212515e-04]]
+2022-04-25 15:02:58.784298-[Testing]-Iter: 000025 saved to ../../data/LEAP_seg/Test/Files_data_pred_leap_1\classe60_abs\PointCloud_pos6.seg
+type :  <class 'numpy.ndarray'>
+category_list :  [('Classe60', 2)]
+len :  1
+object label :  60
+probs :  [array([[[9.9785775e-01, 2.1421888e-03],
+        [9.9999976e-01, 2.0570197e-07],
+        [9.9376416e-01, 6.2357839e-03],
+        ...,
+        [9.9982810e-01, 1.7186838e-04],
+        [9.9999762e-01, 2.3934465e-06],
+        [9.9999309e-01, 6.9371376e-06]]], dtype=float32)]
+probs_2d :  [[9.9785775e-01 2.1421888e-03]
+ [9.9999976e-01 2.0570197e-07]
+ [9.9376416e-01 6.2357839e-03]
+ ...
+ [9.9982810e-01 1.7186838e-04]
+ [9.9999762e-01 2.3934465e-06]
+ [9.9999309e-01 6.9371376e-06]]
+2022-04-25 15:02:58.880776-[Testing]-Iter: 000026 saved to ../../data/LEAP_seg/Test/Files_data_pred_leap_1\classe60_abs\PointCloud_pos7.seg
+type :  <class 'numpy.ndarray'>
+category_list :  [('Classe60', 2)]
+len :  1
+object label :  60
+probs :  [array([[[9.9999952e-01, 5.2560597e-07],
+        [5.0459605e-01, 4.9540392e-01],
+        [9.9999511e-01, 4.9205050e-06],
+        ...,
+        [2.6301254e-07, 9.9999976e-01],
+        [9.9999607e-01, 3.9738775e-06],
+        [1.4850408e-06, 9.9999857e-01]]], dtype=float32)]
+probs_2d :  [[9.9999952e-01 5.2560597e-07]
+ [5.0459605e-01 4.9540392e-01]
+ [9.9999511e-01 4.9205050e-06]
+ ...
+ [2.6301254e-07 9.9999976e-01]
+ [9.9999607e-01 3.9738775e-06]
+ [1.4850408e-06 9.9999857e-01]]
+2022-04-25 15:02:58.992479-[Testing]-Iter: 000027 saved to ../../data/LEAP_seg/Test/Files_data_pred_leap_1\classe60_abs\PointCloud_pos8.seg
+2022-04-25 15:02:58.992479-Done!
