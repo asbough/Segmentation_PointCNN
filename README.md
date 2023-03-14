@@ -1,7 +1,7 @@
 # Segmentation
 
 Ici nous réalisons la segmentation sur les données synthétiques et réelles après un apprentissage purement sur données synthétiques.
-# Requierement 
+# Requierements
 ```
 matplotlib
 plyfile
