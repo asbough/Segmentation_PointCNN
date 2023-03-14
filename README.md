@@ -1,6 +1,19 @@
 # Segmentation
 
 Ici nous réalisons la segmentation sur les données synthétiques et réelles après un apprentissage purement sur données synthétiques.
+# Requierement 
+```
+matplotlib
+plyfile
+python-mnist
+requests
+scipy
+svgpathtools
+tensorflow-gpu>=1.6.0
+tqdm
+transforms3d
+```
+
 # Apprentissage synthétique
 Pour lancer l'apprentissage sur données synthétiques : 
 ```
