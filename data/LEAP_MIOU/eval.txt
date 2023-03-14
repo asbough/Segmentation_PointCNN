@@ -1,0 +1,4 @@
+Evaluation :
+cd evaluation
+python eval_LEAP.py -g C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\data\LEAP_MIOU_Reel_Evolutif\Real_Files_label_complete -p C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\data\LEAP_MIOU_Reel_Evolutif\label_seg_evolutif -d C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\data\LEAP_MIOU_Reel_Evolutif\Real_Files_data_complete
+

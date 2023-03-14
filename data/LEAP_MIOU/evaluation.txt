@@ -1,0 +1,27 @@
+Evaluation part avg :
+cd evaluation
+python eval_LEAP.py -g C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\data\LEAP_MIOU\Test_15\Files_label_complete -p C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\data\LEAP_MIOU\Test_15\Files_data_pred_leap_1 -d C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\data\LEAP_MIOU\Test_15\Files_data_complete -a
+
+Evaluation :
+cd evaluation
+python eval_LEAP.py -g C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\data\LEAP_MIOU\Test_15\Files_label_complete -p C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\data\LEAP_MIOU\Test_15\Files_data_pred_leap_1 -d C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\data\LEAP_MIOU\Test_15\Files_data_complete
+
+Evaluation Test Radius :
+cd evaluation
+python eval_LEAP.py -g C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\data\LEAP_MIOU\Test_Radius\Test_Leap_Radius_3_avec_carre\Files_label_complete -p C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\data\LEAP_MIOU\Test_Radius\Test_Leap_Radius_3_avec_carre\Files_data_pred_leap_1 -d C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\data\LEAP_MIOU\Test_Radius\Test_Leap_Radius_3_avec_carre\Files_data_complete
+
+python eval_LEAP.py -g C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\data\LEAP_MIOU\Test_Radius\Test_Leap_Radius_3_avec_ponderation\Files_label_complete -p C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\data\LEAP_MIOU\Test_Radius\Test_Leap_Radius_3_avec_ponderation\Files_data_pred_leap_1 -d C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\data\LEAP_MIOU\Test_Radius\Test_Leap_Radius_3_avec_ponderation\Files_data_complete
+
+python eval_LEAP.py -g C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\data\LEAP_MIOU\Test_Radius\Test_Leap_Radius_3_sans_ponderation\Files_label_complete -p C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\data\LEAP_MIOU\Test_Radius\Test_Leap_Radius_3_sans_ponderation\Files_data_pred_leap_1 -d C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\data\LEAP_MIOU\Test_Radius\Test_Leap_Radius_3_sans_ponderation\Files_data_complete
+
+python eval_LEAP.py -g C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\data\LEAP_MIOU\Test_Radius\Test_Leap_Radius_5_sans_ponderation\Files_label_complete -p C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\data\LEAP_MIOU\Test_Radius\Test_Leap_Radius_5_sans_ponderation\Files_data_pred_leap_1 -d C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\data\LEAP_MIOU\Test_Radius\Test_Leap_Radius_5_sans_ponderation\Files_data_complete
+
+python eval_LEAP.py -g C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\data\LEAP_MIOU\Test_Radius\Test_Leap_Radius_5_avec_ponderation\Files_label_complete -p C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\data\LEAP_MIOU\Test_Radius\Test_Leap_Radius_5_avec_ponderation\Files_data_pred_leap_1 -d C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\data\LEAP_MIOU\Test_Radius\Test_Leap_Radius_5_avec_ponderation\Files_data_complete
+
+python eval_LEAP.py -g C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\data\LEAP_MIOU\Test_Radius\Test_Leap_Radius_5_avec_carre\Files_label_complete -p C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\data\LEAP_MIOU\Test_Radius\Test_Leap_Radius_5_avec_carre\Files_data_pred_leap_1 -d C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\data\LEAP_MIOU\Test_Radius\Test_Leap_Radius_5_avec_carre\Files_data_complete
+
+python eval_LEAP.py -g C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\data\LEAP_MIOU\Test_Radius\Test_Leap_Radius_10_avec_carre\Files_label_complete -p C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\data\LEAP_MIOU\Test_Radius\Test_Leap_Radius_10_avec_carre\Files_data_pred_leap_1 -d C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\data\LEAP_MIOU\Test_Radius\Test_Leap_Radius_10_avec_carre\Files_data_complete
+
+python eval_LEAP.py -g C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\data\LEAP_MIOU\Test_Radius\Test_Leap_Radius_10_avec_ponderation\Files_label_complete -p C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\data\LEAP_MIOU\Test_Radius\Test_Leap_Radius_10_avec_ponderation\Files_data_pred_leap_1 -d C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\data\LEAP_MIOU\Test_Radius\Test_Leap_Radius_10_avec_ponderation\Files_data_complete
+
+python eval_LEAP.py -g C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\data\LEAP_MIOU\Test_Radius\Test_Leap_Radius_10_sans_ponderation\Files_label_complete -p C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\data\LEAP_MIOU\Test_Radius\Test_Leap_Radius_10_sans_ponderation\Files_data_pred_leap_1 -d C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\data\LEAP_MIOU\Test_Radius\Test_Leap_Radius_10_sans_ponderation\Files_data_complete

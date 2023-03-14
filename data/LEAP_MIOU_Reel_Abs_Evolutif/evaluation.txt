@@ -1,0 +1,1 @@
+python eval_LEAP.py -g C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\data\LEAP_MIOU_Reel_Abs_Evolutif\labels_complete -p C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\data\LEAP_MIOU_Reel_Abs_Evolutif\label_seg_evolutif -d C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\data\LEAP_MIOU_Reel_Abs_Evolutif\points_complete

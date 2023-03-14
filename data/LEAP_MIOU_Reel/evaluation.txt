@@ -1,0 +1,13 @@
+Evaluation :
+cd evaluation
+python eval_LEAP.py -g C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\data\LEAP_MIOU_reel\Real_Files_label_complete -p C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\data\LEAP_MIOU_reel\Real_data_pred_leap_1 -d C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\data\LEAP_MIOU_reel\Real_Files_data_complete
+
+Evaluation part avg :
+cd evaluation
+python eval_LEAP.py -g C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\data\LEAP_MIOU_reel\Real_Files_label_complete -p C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\data\LEAP_MIOU_reel\Real_data_pred_leap_1 -d C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\data\LEAP_MIOU_reel\Real_Files_data_complete -a
+
+Evaluation part avg :
+cd evaluation
+python eval_LEAP.py -g C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\data\LEAP_MIOU\Test_15\Files_label_complete -p C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\data\LEAP_MIOU\Test_15\Files_data_pred_leap_1 -d C:\Users\aboughra\Documents\3A_these\Segmentation\PointCNN_seg\data\LEAP_MIOU\Test_15\Files_data_complete -a
+
+
